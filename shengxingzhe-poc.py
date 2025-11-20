@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-POC for SmartWalker Gateway Unauthenticated RCE (Corrected Payload & Params).
 
 Usage:
     # Default: Execute a curl command to trigger a DNS log callback

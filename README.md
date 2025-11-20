@@ -1,10 +1,11 @@
 # The-gateway-of-the-Smart-Walker-is-not-authorized-for-remote-code-execution-RCE-
 Unauthenticated Remote Code Execution (RCE) in Shengxingzhe Gateway 
 Summary 
-
+Asset search: https://fofa.info/
 
 FOFA：“cert.sn="9371290284317297864" &&title="网关”
-https://fofa.info/
+
+
 <img width="415" height="240" alt="image" src="https://github.com/user-attachments/assets/c28a17c1-5641-4214-b49e-a426cee27098" />
 
 A critical unauthenticated remote code execution (RCE) vulnerability exists in the Shenxingzhe gateway manufactured by Changsha Tongxun Computer Technology Co., Ltd. An attacker can execute arbitrary system commands on the device without authentication. 
